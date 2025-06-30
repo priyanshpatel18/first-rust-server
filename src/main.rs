@@ -67,7 +67,7 @@ async fn main() {
 
     let app = Router::new()
         .route("/todos", get(get_todos).post(create_todo))
-        .route("/todos/:id", delete(delete_todo))
+        .route("/todos/{id}", delete(delete_todo))
         .with_state(state);
 
     println!("Listening at port 3000");
