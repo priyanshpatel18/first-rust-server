@@ -2,6 +2,15 @@
 
 A beginner-friendly REST API for managing todos, built with Rust and the Axum web framework. This project demonstrates core concepts of web development including HTTP routing, JSON handling, and basic CRUD operations.
 
+## Deployed Link
+
+**Live Link:** [https://rust-todo.priyanshpatel.com](https://rust-todo.priyanshpatel.com)
+
+**Try the live API:**
+- Get all todos: `GET https://rust-todo.priyanshpatel.com/todos`
+- Create a todo: `POST https://rust-todo.priyanshpatel.com/todos`
+- Delete a todo: `DELETE https://rust-todo.priyanshpatel.com/todos/:id`
+
 ## What You'll Learn
 
 This project will help you understand:
